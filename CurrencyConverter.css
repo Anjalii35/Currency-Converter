@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: #675AFE; */
+    background: #9873fe;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 370px;
+    padding: 30px;
+    border-radius: 7px;
+    background: #fff;
+}
+.wrapper header{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #9873fe;
+}
+.wrapper form{
+    margin: 35px 0 20px 0;
+}
+.amount p{
+    margin-bottom: 8px;
+}
+form :where(input,select,button){
+    width: 98%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+form p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+form input{
+    height: 50px;
+    padding: 0 0 0 14px;
+    font-size: 17px;
+    border: 1px solid #999;
+}
+form input:focus{
+    padding: 0 0 0 14px;
+    border: 2px solid #9873fe
+}
+form .drop-list{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop-list .select-box{
+    display: flex;
+    height: 45px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+.select-box select{
+    width: auto;
+    font-size: 16px;
+    margin: 0 -5px 0 5px;
+    z-index: 1;
+}
+.select-box select::-webkit-scrollbar{
+    width: 8px;
+}
+.select-box select::-webkit-scrollbar-track{
+    background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
+}
+.select-box img{
+    max-width: 25px;
+}
+.drop-list .icon{
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.drop-list .icon:hover{
+    font-size: 26px;
+}
+form .exchange-rate{
+    font-size: 19px;
+    color: #9873fe;
+    font-weight: 600;
+    margin: 5px 0;
+    border: 1px solid #9873fe;
+    border-radius: 5px;
+    padding: 14px 14px;
+    display: flex;
+    justify-content: center;
+}
+form button{
+    width: 370px;
+    height: 52px;
+    color: #fff;
+    background: #9873fe;
+    font-size: 19px;
+    cursor: pointer;
+    margin: 40px 0 20px;
+}
+form button:hover{
+    background: #b096f9;
+}
+.app-icon{
+    width: 9.37em;
+    margin: 0 0 25px 110px;
+    border-radius: 50%;
+}
